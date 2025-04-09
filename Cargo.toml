@@ -1,0 +1,10 @@
+[package]
+name = "solana-block-tx-decode"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.96"
+prost = "0.11.9"
+solana-storage-proto = "~2.1.4"
+solana-transaction-status = "~2.1.14"
